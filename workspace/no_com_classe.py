@@ -13,8 +13,8 @@ class MyNode(Node):
   def execute(self):
     self.get_logger().info('Executando o nó!')
     
-    self.get_logger().debug ('Exemplo de mensagem de debug.')
-    self.get_logger().info  ('Exemplo de mensagem de informação.')
+    self.get_logger().debug('Exemplo de mensagem de debug.')
+    self.get_logger().info('Exemplo de mensagem de informação.')
     self.get_logger().warn  ('Exemplo de mensagem de aviso.')
     self.get_logger().error ('Exemplo de mensagem de erro comum.')
     self.get_logger().fatal ('Exemplo de mensagem de erro fatal.')
