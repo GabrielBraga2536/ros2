@@ -1,0 +1,6546 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+
+  <model name='k404'>
+    <pose>0 0 0 0 -0 0</pose>
+
+    
+    <link name='0_link'>
+      <collision name='collision_0'>
+        <pose>0.75 5.0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.5 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_0'>
+        <pose>0.75 5.0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.5 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='1_link'>
+      <collision name='collision_1'>
+        <pose>0.0 2.5 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 5.0 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_1'>
+        <pose>0.0 2.5 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 5.0 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='2_link'>
+      <collision name='collision_2'>
+        <pose>0.75 0.0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.5 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_2'>
+        <pose>0.75 0.0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.5 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='3_link'>
+      <collision name='collision_3'>
+        <pose>1.5 1.25 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 2.5 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_3'>
+        <pose>1.5 1.25 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 2.5 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='4_link'>
+      <collision name='collision_4'>
+        <pose>1.9 2.5 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_4'>
+        <pose>1.9 2.5 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='5_link'>
+      <collision name='collision_5'>
+        <pose>2.3 1.25 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 2.5 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_5'>
+        <pose>2.3 1.25 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 2.5 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='6_link'>
+      <collision name='collision_6'>
+        <pose>3.15 0.0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.7 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_6'>
+        <pose>3.15 0.0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.7 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='7_link'>
+      <collision name='collision_7'>
+        <pose>4.0 1.25 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 2.5 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_7'>
+        <pose>4.0 1.25 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 2.5 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='8_link'>
+      <collision name='collision_8'>
+        <pose>1.5 5.0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_8'>
+        <pose>1.5 5.0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='9_link'>
+      <collision name='collision_9'>
+        <pose>1.5138888174440974 4.9999614198523155 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_9'>
+        <pose>1.5138888174440974 4.9999614198523155 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='10_link'>
+      <collision name='collision_10'>
+        <pose>1.5277772062220925 4.999845680600004 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_10'>
+        <pose>1.5277772062220925 4.999845680600004 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='11_link'>
+      <collision name='collision_11'>
+        <pose>1.5416647376811126 4.999652785815255 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_11'>
+        <pose>1.5416647376811126 4.999652785815255 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='12_link'>
+      <collision name='collision_12'>
+        <pose>1.5555509831947465 4.999382741451596 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_12'>
+        <pose>1.5555509831947465 4.999382741451596 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='13_link'>
+      <collision name='collision_13'>
+        <pose>1.569435514176272 4.999035555843709 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_13'>
+        <pose>1.569435514176272 4.999035555843709 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='14_link'>
+      <collision name='collision_14'>
+        <pose>1.583317902091884 4.998611239707172 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_14'>
+        <pose>1.583317902091884 4.998611239707172 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='15_link'>
+      <collision name='collision_15'>
+        <pose>1.5971977184739221 4.9981098061381255 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_15'>
+        <pose>1.5971977184739221 4.9981098061381255 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='16_link'>
+      <collision name='collision_16'>
+        <pose>1.6110745349340938 4.997531270612878 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_16'>
+        <pose>1.6110745349340938 4.997531270612878 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='17_link'>
+      <collision name='collision_17'>
+        <pose>1.624947923176696 4.996875650987416 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_17'>
+        <pose>1.624947923176696 4.996875650987416 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='18_link'>
+      <collision name='collision_18'>
+        <pose>1.6388174550118346 4.996142967496861 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_18'>
+        <pose>1.6388174550118346 4.996142967496861 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='19_link'>
+      <collision name='collision_19'>
+        <pose>1.652682702368641 4.995333242754844 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_19'>
+        <pose>1.652682702368641 4.995333242754844 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='20_link'>
+      <collision name='collision_20'>
+        <pose>1.6665432373084825 4.994446501752806 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_20'>
+        <pose>1.6665432373084825 4.994446501752806 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='21_link'>
+      <collision name='collision_21'>
+        <pose>1.680398632038171 4.993482771859224 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_21'>
+        <pose>1.680398632038171 4.993482771859224 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='22_link'>
+      <collision name='collision_22'>
+        <pose>1.6942484589231663 4.992442082818771 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_22'>
+        <pose>1.6942484589231663 4.992442082818771 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='23_link'>
+      <collision name='collision_23'>
+        <pose>1.7080922905007756 4.991324466751399 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_23'>
+        <pose>1.7080922905007756 4.991324466751399 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='24_link'>
+      <collision name='collision_24'>
+        <pose>1.7219296994933453 4.990129958151339 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_24'>
+        <pose>1.7219296994933453 4.990129958151339 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='25_link'>
+      <collision name='collision_25'>
+        <pose>1.7357602588214491 4.988858593886049 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_25'>
+        <pose>1.7357602588214491 4.988858593886049 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='26_link'>
+      <collision name='collision_26'>
+        <pose>1.7495835416170704 4.987510413195064 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_26'>
+        <pose>1.7495835416170704 4.987510413195064 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='27_link'>
+      <collision name='collision_27'>
+        <pose>1.7633991212367754 4.986085457688793 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_27'>
+        <pose>1.7633991212367754 4.986085457688793 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='28_link'>
+      <collision name='collision_28'>
+        <pose>1.7772065712748826 4.98458377134723 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_28'>
+        <pose>1.7772065712748826 4.98458377134723 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='29_link'>
+      <collision name='collision_29'>
+        <pose>1.7910054655766223 4.9830054005186 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_29'>
+        <pose>1.7910054655766223 4.9830054005186 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='30_link'>
+      <collision name='collision_30'>
+        <pose>1.804795378251291 4.981350393917927 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_30'>
+        <pose>1.804795378251291 4.981350393917927 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='31_link'>
+      <collision name='collision_31'>
+        <pose>1.8185758836853947 4.979618802625531 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_31'>
+        <pose>1.8185758836853947 4.979618802625531 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='32_link'>
+      <collision name='collision_32'>
+        <pose>1.8323465565557853 4.977810680085449 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_32'>
+        <pose>1.8323465565557853 4.977810680085449 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='33_link'>
+      <collision name='collision_33'>
+        <pose>1.8461069718427883 4.975926082103788 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_33'>
+        <pose>1.8461069718427883 4.975926082103788 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='34_link'>
+      <collision name='collision_34'>
+        <pose>1.8598567048433203 4.973965066847006 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_34'>
+        <pose>1.8598567048433203 4.973965066847006 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='35_link'>
+      <collision name='collision_35'>
+        <pose>1.873595331183998 4.971927694840105 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_35'>
+        <pose>1.873595331183998 4.971927694840105 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='36_link'>
+      <collision name='collision_36'>
+        <pose>1.8873224268342346 4.96981402896478 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_36'>
+        <pose>1.8873224268342346 4.96981402896478 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='37_link'>
+      <collision name='collision_37'>
+        <pose>1.9010375681193281 4.967624134457461 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_37'>
+        <pose>1.9010375681193281 4.967624134457461 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='38_link'>
+      <collision name='collision_38'>
+        <pose>1.9147403317335376 4.965358078907313 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_38'>
+        <pose>1.9147403317335376 4.965358078907313 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='39_link'>
+      <collision name='collision_39'>
+        <pose>1.9284302947531478 4.96301593225414 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_39'>
+        <pose>1.9284302947531478 4.96301593225414 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='40_link'>
+      <collision name='collision_40'>
+        <pose>1.9421070346495226 4.960597766786234 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_40'>
+        <pose>1.9421070346495226 4.960597766786234 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='41_link'>
+      <collision name='collision_41'>
+        <pose>1.955770129302146 4.958103657138141 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_41'>
+        <pose>1.955770129302146 4.958103657138141 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='42_link'>
+      <collision name='collision_42'>
+        <pose>1.9694191570116506 4.9555336802883545 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_42'>
+        <pose>1.9694191570116506 4.9555336802883545 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='43_link'>
+      <collision name='collision_43'>
+        <pose>1.9830536965128323 4.952887915556944 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_43'>
+        <pose>1.9830536965128323 4.952887915556944 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='44_link'>
+      <collision name='collision_44'>
+        <pose>1.996673326987653 4.950166444603104 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_44'>
+        <pose>1.996673326987653 4.950166444603104 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='45_link'>
+      <collision name='collision_45'>
+        <pose>2.010277628078229 4.947369351422637 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_45'>
+        <pose>2.010277628078229 4.947369351422637 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='46_link'>
+      <collision name='collision_46'>
+        <pose>2.0238661798998034 4.944496722345356 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_46'>
+        <pose>2.0238661798998034 4.944496722345356 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='47_link'>
+      <collision name='collision_47'>
+        <pose>2.0374385630537084 4.941548646032425 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_47'>
+        <pose>2.0374385630537084 4.941548646032425 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='48_link'>
+      <collision name='collision_48'>
+        <pose>2.0509943586403057 4.938525213473619 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_48'>
+        <pose>2.0509943586403057 4.938525213473619 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='49_link'>
+      <collision name='collision_49'>
+        <pose>2.064533148271919 4.935426517984519 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_49'>
+        <pose>2.064533148271919 4.935426517984519 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='50_link'>
+      <collision name='collision_50'>
+        <pose>2.0780545140857463 4.9322526552036265 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_50'>
+        <pose>2.0780545140857463 4.9322526552036265 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='51_link'>
+      <collision name='collision_51'>
+        <pose>2.091558038756755 4.929003723089419 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_51'>
+        <pose>2.091558038756755 4.929003723089419 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='52_link'>
+      <collision name='collision_52'>
+        <pose>2.1050433055105637 4.925679821917322 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_52'>
+        <pose>2.1050433055105637 4.925679821917322 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='53_link'>
+      <collision name='collision_53'>
+        <pose>2.118509898136307 4.922281054276612 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_53'>
+        <pose>2.118509898136307 4.922281054276612 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='54_link'>
+      <collision name='collision_54'>
+        <pose>2.131957400999479 4.918807525067256 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_54'>
+        <pose>2.131957400999479 4.918807525067256 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='55_link'>
+      <collision name='collision_55'>
+        <pose>2.1453853990547618 4.91525934149667 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_55'>
+        <pose>2.1453853990547618 4.91525934149667 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='56_link'>
+      <collision name='collision_56'>
+        <pose>2.1587934778588376 4.91163661307641 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_56'>
+        <pose>2.1587934778588376 4.91163661307641 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='57_link'>
+      <collision name='collision_57'>
+        <pose>2.172181223583178 4.907939451618795 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_57'>
+        <pose>2.172181223583178 4.907939451618795 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='58_link'>
+      <collision name='collision_58'>
+        <pose>2.1855482230268164 4.904167971233452 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_58'>
+        <pose>2.1855482230268164 4.904167971233452 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='59_link'>
+      <collision name='collision_59'>
+        <pose>2.198894063629104 4.900322288323799 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_59'>
+        <pose>2.198894063629104 4.900322288323799 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='60_link'>
+      <collision name='collision_60'>
+        <pose>2.2122183334824386 4.896402521583446 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_60'>
+        <pose>2.2122183334824386 4.896402521583446 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='61_link'>
+      <collision name='collision_61'>
+        <pose>2.2255206213449816 4.892408791992537 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_61'>
+        <pose>2.2255206213449816 4.892408791992537 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='62_link'>
+      <collision name='collision_62'>
+        <pose>2.238800516653349 4.888341222814015 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_62'>
+        <pose>2.238800516653349 4.888341222814015 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='63_link'>
+      <collision name='collision_63'>
+        <pose>2.2520576095352824 4.884199939589815 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_63'>
+        <pose>2.2520576095352824 4.884199939589815 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='64_link'>
+      <collision name='collision_64'>
+        <pose>2.265291490822302 4.879985070136991 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_64'>
+        <pose>2.265291490822302 4.879985070136991 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='65_link'>
+      <collision name='collision_65'>
+        <pose>2.278501752062331 4.875696744543773 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_65'>
+        <pose>2.278501752062331 4.875696744543773 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='66_link'>
+      <collision name='collision_66'>
+        <pose>2.291687985532306 4.8713350951655485 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_66'>
+        <pose>2.291687985532306 4.8713350951655485 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='67_link'>
+      <collision name='collision_67'>
+        <pose>2.3048497842507594 4.866900256620778 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_67'>
+        <pose>2.3048497842507594 4.866900256620778 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='68_link'>
+      <collision name='collision_68'>
+        <pose>2.3179867419903806 4.862392365786844 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_68'>
+        <pose>2.3179867419903806 4.862392365786844 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='69_link'>
+      <collision name='collision_69'>
+        <pose>2.331098453290554 4.857811561795821 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_69'>
+        <pose>2.331098453290554 4.857811561795821 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='70_link'>
+      <collision name='collision_70'>
+        <pose>2.344184513469872 4.853157986030185 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_70'>
+        <pose>2.344184513469872 4.853157986030185 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='71_link'>
+      <collision name='collision_71'>
+        <pose>2.3572445186386286 4.848431782118447 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_71'>
+        <pose>2.3572445186386286 4.848431782118447 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='72_link'>
+      <collision name='collision_72'>
+        <pose>2.37027806571128 4.843633095930725 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_72'>
+        <pose>2.37027806571128 4.843633095930725 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='73_link'>
+      <collision name='collision_73'>
+        <pose>2.3832847524188896 4.838762075574234 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_73'>
+        <pose>2.3832847524188896 4.838762075574234 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='74_link'>
+      <collision name='collision_74'>
+        <pose>2.3962641773215427 4.833818871388724 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_74'>
+        <pose>2.3962641773215427 4.833818871388724 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='75_link'>
+      <collision name='collision_75'>
+        <pose>2.4092159398207356 4.828803635941831 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_75'>
+        <pose>2.4092159398207356 4.828803635941831 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='76_link'>
+      <collision name='collision_76'>
+        <pose>2.42213964017174 4.823716524024377 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_76'>
+        <pose>2.42213964017174 4.823716524024377 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='77_link'>
+      <collision name='collision_77'>
+        <pose>2.4350348794959418 4.818557692645583 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_77'>
+        <pose>2.4350348794959418 4.818557692645583 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='78_link'>
+      <collision name='collision_78'>
+        <pose>2.44790125979315 4.813327301028231 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_78'>
+        <pose>2.44790125979315 4.813327301028231 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='79_link'>
+      <collision name='collision_79'>
+        <pose>2.460738383953884 4.808025510603745 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_79'>
+        <pose>2.460738383953884 4.808025510603745 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='80_link'>
+      <collision name='collision_80'>
+        <pose>2.4735458557716266 4.802652485007213 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_80'>
+        <pose>2.4735458557716266 4.802652485007213 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='81_link'>
+      <collision name='collision_81'>
+        <pose>2.486323279955054 4.7972083900723295 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_81'>
+        <pose>2.486323279955054 4.7972083900723295 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='82_link'>
+      <collision name='collision_82'>
+        <pose>2.499070262140237 4.791693393826286 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_82'>
+        <pose>2.499070262140237 4.791693393826286 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='83_link'>
+      <collision name='collision_83'>
+        <pose>2.511786408902812 4.786107666484575 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_83'>
+        <pose>2.511786408902812 4.786107666484575 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='84_link'>
+      <collision name='collision_84'>
+        <pose>2.524471327770122 4.780451380445749 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_84'>
+        <pose>2.524471327770122 4.780451380445749 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='85_link'>
+      <collision name='collision_85'>
+        <pose>2.5371246272333323 4.774724710286087 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_85'>
+        <pose>2.5371246272333323 4.774724710286087 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='86_link'>
+      <collision name='collision_86'>
+        <pose>2.5497459167595142 4.768927832754212 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_86'>
+        <pose>2.5497459167595142 4.768927832754212 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='87_link'>
+      <collision name='collision_87'>
+        <pose>2.5623348068036966 4.76306092676564 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_87'>
+        <pose>2.5623348068036966 4.76306092676564 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='88_link'>
+      <collision name='collision_88'>
+        <pose>2.5748909088208887 4.757124173397246 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_88'>
+        <pose>2.5748909088208887 4.757124173397246 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='89_link'>
+      <collision name='collision_89'>
+        <pose>2.587413835278076 4.751117755881692 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_89'>
+        <pose>2.587413835278076 4.751117755881692 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='90_link'>
+      <collision name='collision_90'>
+        <pose>2.5999031996661746 4.745041859601756 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_90'>
+        <pose>2.5999031996661746 4.745041859601756 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='91_link'>
+      <collision name='collision_91'>
+        <pose>2.612358616511968 4.738896672084619 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_91'>
+        <pose>2.612358616511968 4.738896672084619 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='92_link'>
+      <collision name='collision_92'>
+        <pose>2.624779701389999 4.732682382996073 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_92'>
+        <pose>2.624779701389999 4.732682382996073 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='93_link'>
+      <collision name='collision_93'>
+        <pose>2.6371660709344362 4.726399184134673 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_93'>
+        <pose>2.6371660709344362 4.726399184134673 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='94_link'>
+      <collision name='collision_94'>
+        <pose>2.6495173428509062 4.720047269425809 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_94'>
+        <pose>2.6495173428509062 4.720047269425809 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='95_link'>
+      <collision name='collision_95'>
+        <pose>2.661833135928294 4.713626834915729 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_95'>
+        <pose>2.661833135928294 4.713626834915729 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='96_link'>
+      <collision name='collision_96'>
+        <pose>2.674113070050506 4.70713807876548 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_96'>
+        <pose>2.674113070050506 4.70713807876548 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='97_link'>
+      <collision name='collision_97'>
+        <pose>2.6863567662082057 4.7005812012448 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_97'>
+        <pose>2.6863567662082057 4.7005812012448 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='98_link'>
+      <collision name='collision_98'>
+        <pose>2.6985638465105075 4.693956404725932 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_98'>
+        <pose>2.6985638465105075 4.693956404725932 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='99_link'>
+      <collision name='collision_99'>
+        <pose>2.710733934196643 4.687263893677377 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_99'>
+        <pose>2.710733934196643 4.687263893677377 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='100_link'>
+      <collision name='collision_100'>
+        <pose>2.7228666536475883 4.680503874657587 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_100'>
+        <pose>2.7228666536475883 4.680503874657587 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='101_link'>
+      <collision name='collision_101'>
+        <pose>2.734961630397656 4.673676556308588 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_101'>
+        <pose>2.734961630397656 4.673676556308588 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='102_link'>
+      <collision name='collision_102'>
+        <pose>2.747018491146056 4.66678214934954 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_102'>
+        <pose>2.747018491146056 4.66678214934954 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='103_link'>
+      <collision name='collision_103'>
+        <pose>2.7590368637684124 4.659820866570235 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_103'>
+        <pose>2.7590368637684124 4.659820866570235 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='104_link'>
+      <collision name='collision_104'>
+        <pose>2.771016377328253 4.652792922824526 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_104'>
+        <pose>2.771016377328253 4.652792922824526 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='105_link'>
+      <collision name='collision_105'>
+        <pose>2.7829566620884556 4.6456985350236994 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_105'>
+        <pose>2.7829566620884556 4.6456985350236994 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='106_link'>
+      <collision name='collision_106'>
+        <pose>2.794857349522662 4.638537922129778 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_106'>
+        <pose>2.794857349522662 4.638537922129778 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='107_link'>
+      <collision name='collision_107'>
+        <pose>2.806718072326648 4.631311305148764 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_107'>
+        <pose>2.806718072326648 4.631311305148764 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='108_link'>
+      <collision name='collision_108'>
+        <pose>2.818538464429664 4.624018907123819 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_108'>
+        <pose>2.818538464429664 4.624018907123819 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='109_link'>
+      <collision name='collision_109'>
+        <pose>2.8303181610057315 4.6166609531283775 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_109'>
+        <pose>2.8303181610057315 4.6166609531283775 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='110_link'>
+      <collision name='collision_110'>
+        <pose>2.8420567984849034 4.609237670259199 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_110'>
+        <pose>2.8420567984849034 4.609237670259199 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='111_link'>
+      <collision name='collision_111'>
+        <pose>2.853754014564486 4.601749287629364 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_111'>
+        <pose>2.853754014564486 4.601749287629364 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='112_link'>
+      <collision name='collision_112'>
+        <pose>2.86540944822022 4.594196036361199 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_112'>
+        <pose>2.86540944822022 4.594196036361199 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='113_link'>
+      <collision name='collision_113'>
+        <pose>2.8770227397174244 4.586578149579142 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_113'>
+        <pose>2.8770227397174244 4.586578149579142 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='114_link'>
+      <collision name='collision_114'>
+        <pose>2.888593530622098 4.578895862402553 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_114'>
+        <pose>2.888593530622098 4.578895862402553 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='115_link'>
+      <collision name='collision_115'>
+        <pose>2.900121463811983 4.571149411938451 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_115'>
+        <pose>2.900121463811983 4.571149411938451 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='116_link'>
+      <collision name='collision_116'>
+        <pose>2.9116061834875886 4.563339037274195 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_116'>
+        <pose>2.9116061834875886 4.563339037274195 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='117_link'>
+      <collision name='collision_117'>
+        <pose>2.9230473351831683 4.555464979470116 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_117'>
+        <pose>2.9230473351831683 4.555464979470116 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='118_link'>
+      <collision name='collision_118'>
+        <pose>2.934444565777665 4.547527481552061 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_118'>
+        <pose>2.934444565777665 4.547527481552061 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='119_link'>
+      <collision name='collision_119'>
+        <pose>2.9457975235056075 4.539526788503904 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_119'>
+        <pose>2.9457975235056075 4.539526788503904 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='120_link'>
+      <collision name='collision_120'>
+        <pose>2.9571058579679668 4.5314631472599824 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_120'>
+        <pose>2.9571058579679668 4.5314631472599824 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='121_link'>
+      <collision name='collision_121'>
+        <pose>2.9683692201429723 4.523336806697472 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_121'>
+        <pose>2.9683692201429723 4.523336806697472 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='122_link'>
+      <collision name='collision_122'>
+        <pose>2.9795872623968824 4.5151480176287055 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_122'>
+        <pose>2.9795872623968824 4.5151480176287055 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='123_link'>
+      <collision name='collision_123'>
+        <pose>2.990759638494716 4.506897032793438 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_123'>
+        <pose>2.990759638494716 4.506897032793438 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='124_link'>
+      <collision name='collision_124'>
+        <pose>3.001886003610937 4.498584106851039 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_124'>
+        <pose>3.001886003610937 4.498584106851039 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='125_link'>
+      <collision name='collision_125'>
+        <pose>3.012966014340099 4.490209496372639 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_125'>
+        <pose>3.012966014340099 4.490209496372639 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='126_link'>
+      <collision name='collision_126'>
+        <pose>3.0239993287074407 4.481773459833205 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_126'>
+        <pose>3.0239993287074407 4.481773459833205 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='127_link'>
+      <collision name='collision_127'>
+        <pose>3.0349856061794434 4.473276257603564 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_127'>
+        <pose>3.0349856061794434 4.473276257603564 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='128_link'>
+      <collision name='collision_128'>
+        <pose>3.0459245076743424 4.46471815194237 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_128'>
+        <pose>3.0459245076743424 4.46471815194237 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='129_link'>
+      <collision name='collision_129'>
+        <pose>3.056815695572589 4.456099406988008 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_129'>
+        <pose>3.056815695572589 4.456099406988008 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='130_link'>
+      <collision name='collision_130'>
+        <pose>3.0676588337272737 4.44742028875044 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_130'>
+        <pose>3.0676588337272737 4.44742028875044 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='131_link'>
+      <collision name='collision_131'>
+        <pose>3.0784535874744985 4.438681065102996 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_131'>
+        <pose>3.0784535874744985 4.438681065102996 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='132_link'>
+      <collision name='collision_132'>
+        <pose>3.089199623643709 4.429882005774108 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_132'>
+        <pose>3.089199623643709 4.429882005774108 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='133_link'>
+      <collision name='collision_133'>
+        <pose>3.099896610567974 4.4210233823389835 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_133'>
+        <pose>3.099896610567974 4.4210233823389835 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='134_link'>
+      <collision name='collision_134'>
+        <pose>3.1105442180942275 4.412105468211221 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_134'>
+        <pose>3.1105442180942275 4.412105468211221 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='135_link'>
+      <collision name='collision_135'>
+        <pose>3.1211421175934513 4.403128538634377 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_135'>
+        <pose>3.1211421175934513 4.403128538634377 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='136_link'>
+      <collision name='collision_136'>
+        <pose>3.1316899819708235 4.394092870673466 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_136'>
+        <pose>3.1316899819708235 4.394092870673466 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='137_link'>
+      <collision name='collision_137'>
+        <pose>3.142187485675812 4.384998743206413 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_137'>
+        <pose>3.142187485675812 4.384998743206413 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='138_link'>
+      <collision name='collision_138'>
+        <pose>3.152634304712221 4.37584643691544 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_138'>
+        <pose>3.152634304712221 4.37584643691544 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='139_link'>
+      <collision name='collision_139'>
+        <pose>3.1630301166481947 4.3666362342784115 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_139'>
+        <pose>3.1630301166481947 4.3666362342784115 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='140_link'>
+      <collision name='collision_140'>
+        <pose>3.1733746006261656 4.35736841956011 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_140'>
+        <pose>3.1733746006261656 4.35736841956011 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='141_link'>
+      <collision name='collision_141'>
+        <pose>3.1836674373727565 4.348043278803463 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_141'>
+        <pose>3.1836674373727565 4.348043278803463 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='142_link'>
+      <collision name='collision_142'>
+        <pose>3.1939083092086396 4.338661099820717 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_142'>
+        <pose>3.1939083092086396 4.338661099820717 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='143_link'>
+      <collision name='collision_143'>
+        <pose>3.2040969000583353 4.3292221721845525 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_143'>
+        <pose>3.2040969000583353 4.3292221721845525 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='144_link'>
+      <collision name='collision_144'>
+        <pose>3.214232895459973 4.319726787219147 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_144'>
+        <pose>3.214232895459973 4.319726787219147 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='145_link'>
+      <collision name='collision_145'>
+        <pose>3.224315982574992 4.310175237991184 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_145'>
+        <pose>3.224315982574992 4.310175237991184 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='146_link'>
+      <collision name='collision_146'>
+        <pose>3.234345850197801 4.300567819300808 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_146'>
+        <pose>3.234345850197801 4.300567819300808 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='147_link'>
+      <collision name='collision_147'>
+        <pose>3.2443221887653806 4.290904827672524 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_147'>
+        <pose>3.2443221887653806 4.290904827672524 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='148_link'>
+      <collision name='collision_148'>
+        <pose>3.2542446903668383 4.281186561346047 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_148'>
+        <pose>3.2542446903668383 4.281186561346047 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='149_link'>
+      <collision name='collision_149'>
+        <pose>3.2641130487529124 4.271413320267098 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_149'>
+        <pose>3.2641130487529124 4.271413320267098 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='150_link'>
+      <collision name='collision_150'>
+        <pose>3.273926959345424 4.261585406078144 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_150'>
+        <pose>3.273926959345424 4.261585406078144 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='151_link'>
+      <collision name='collision_151'>
+        <pose>3.283686119246677 4.251703122109089 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_151'>
+        <pose>3.283686119246677 4.251703122109089 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='152_link'>
+      <collision name='collision_152'>
+        <pose>3.293390227248807 4.241766773367914 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_152'>
+        <pose>3.293390227248807 4.241766773367914 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='153_link'>
+      <collision name='collision_153'>
+        <pose>3.303038983843078 4.2317766665312595 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_153'>
+        <pose>3.303038983843078 4.2317766665312595 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='154_link'>
+      <collision name='collision_154'>
+        <pose>3.312632091229127 4.221733109934964 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_154'>
+        <pose>3.312632091229127 4.221733109934964 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='155_link'>
+      <collision name='collision_155'>
+        <pose>3.3221692533241542 4.211636413564544 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_155'>
+        <pose>3.3221692533241542 4.211636413564544 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='156_link'>
+      <collision name='collision_156'>
+        <pose>3.3316501757720616 4.20148688904563 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_156'>
+        <pose>3.3316501757720616 4.20148688904563 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='157_link'>
+      <collision name='collision_157'>
+        <pose>3.341074565952538 4.191284849634346 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_157'>
+        <pose>3.341074565952538 4.191284849634346 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='158_link'>
+      <collision name='collision_158'>
+        <pose>3.350442132990093 4.1810306102076416 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_158'>
+        <pose>3.350442132990093 4.1810306102076416 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='159_link'>
+      <collision name='collision_159'>
+        <pose>3.359752587763029 4.170724487253574 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_159'>
+        <pose>3.359752587763029 4.170724487253574 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='160_link'>
+      <collision name='collision_160'>
+        <pose>3.369005642912371 4.1603667988615385 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_160'>
+        <pose>3.369005642912371 4.1603667988615385 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='161_link'>
+      <collision name='collision_161'>
+        <pose>3.378201012850732 4.149957864712455 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_161'>
+        <pose>3.378201012850732 4.149957864712455 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='162_link'>
+      <collision name='collision_162'>
+        <pose>3.3873384137711264 4.139498006068897 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_162'>
+        <pose>3.3873384137711264 4.139498006068897 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='163_link'>
+      <collision name='collision_163'>
+        <pose>3.396417563655734 4.128987545765176 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_163'>
+        <pose>3.396417563655734 4.128987545765176 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='164_link'>
+      <collision name='collision_164'>
+        <pose>3.405438182284599 4.1184268081973805 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_164'>
+        <pose>3.405438182284599 4.1184268081973805 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='165_link'>
+      <collision name='collision_165'>
+        <pose>3.4143999912442835 4.107816119313364 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_165'>
+        <pose>3.4143999912442835 4.107816119313364 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='166_link'>
+      <collision name='collision_166'>
+        <pose>3.4233027139364554 4.097155806602682 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_166'>
+        <pose>3.4233027139364554 4.097155806602682 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='167_link'>
+      <collision name='collision_167'>
+        <pose>3.4321460755864313 4.086446199086485 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_167'>
+        <pose>3.4321460755864313 4.086446199086485 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='168_link'>
+      <collision name='collision_168'>
+        <pose>3.440929803251651 4.075687627307363 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_168'>
+        <pose>3.440929803251651 4.075687627307363 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='169_link'>
+      <collision name='collision_169'>
+        <pose>3.4496536258301074 4.064880423319148 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_169'>
+        <pose>3.4496536258301074 4.064880423319148 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='170_link'>
+      <collision name='collision_170'>
+        <pose>3.4583172740687083 4.054024920676661 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_170'>
+        <pose>3.4583172740687083 4.054024920676661 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='171_link'>
+      <collision name='collision_171'>
+        <pose>3.4669204805715923 4.0431214544254175 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_171'>
+        <pose>3.4669204805715923 4.0431214544254175 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='172_link'>
+      <collision name='collision_172'>
+        <pose>3.475462979808376 4.032170361091289 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_172'>
+        <pose>3.475462979808376 4.032170361091289 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='173_link'>
+      <collision name='collision_173'>
+        <pose>3.483944508122355 4.021171978670113 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_173'>
+        <pose>3.483944508122355 4.021171978670113 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='174_link'>
+      <collision name='collision_174'>
+        <pose>3.492364803738637 4.010126646617264 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_174'>
+        <pose>3.492364803738637 4.010126646617264 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='175_link'>
+      <collision name='collision_175'>
+        <pose>3.5007236067722225 3.999034705837176 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_175'>
+        <pose>3.5007236067722225 3.999034705837176 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='176_link'>
+      <collision name='collision_176'>
+        <pose>3.509020659236028 3.9878964986728196 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_176'>
+        <pose>3.509020659236028 3.9878964986728196 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='177_link'>
+      <collision name='collision_177'>
+        <pose>3.5172557050488455 3.9767123688951367 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_177'>
+        <pose>3.5172557050488455 3.9767123688951367 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='178_link'>
+      <collision name='collision_178'>
+        <pose>3.525428490043248 3.9654826616924295 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_178'>
+        <pose>3.525428490043248 3.9654826616924295 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='179_link'>
+      <collision name='collision_179'>
+        <pose>3.533538761973434 3.954207723659709 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_179'>
+        <pose>3.533538761973434 3.954207723659709 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='180_link'>
+      <collision name='collision_180'>
+        <pose>3.541586270523013 3.9428879027879935 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_180'>
+        <pose>3.541586270523013 3.9428879027879935 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='181_link'>
+      <collision name='collision_181'>
+        <pose>3.54957076731273 3.9315235484535727 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_181'>
+        <pose>3.54957076731273 3.9315235484535727 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='182_link'>
+      <collision name='collision_182'>
+        <pose>3.5574920059081316 3.9201150114072214 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_182'>
+        <pose>3.5574920059081316 3.9201150114072214 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='183_link'>
+      <collision name='collision_183'>
+        <pose>3.5653497418271756 3.9086626437633747 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_183'>
+        <pose>3.5653497418271756 3.9086626437633747 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='184_link'>
+      <collision name='collision_184'>
+        <pose>3.5731437325477713 3.89716679898926 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_184'>
+        <pose>3.5731437325477713 3.89716679898926 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='185_link'>
+      <collision name='collision_185'>
+        <pose>3.580873737515268 3.8856278318939896 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_185'>
+        <pose>3.580873737515268 3.8856278318939896 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='186_link'>
+      <collision name='collision_186'>
+        <pose>3.5885395181498803 3.8740460986176073 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_186'>
+        <pose>3.5885395181498803 3.8740460986176073 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='187_link'>
+      <collision name='collision_187'>
+        <pose>3.5961408378540476 3.8624219566200964 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_187'>
+        <pose>3.5961408378540476 3.8624219566200964 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='188_link'>
+      <collision name='collision_188'>
+        <pose>3.6036774620197414 3.8507557646703496 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_188'>
+        <pose>3.6036774620197414 3.8507557646703496 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='189_link'>
+      <collision name='collision_189'>
+        <pose>3.6111491580357025 3.839047882835093 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_189'>
+        <pose>3.6111491580357025 3.839047882835093 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='190_link'>
+      <collision name='collision_190'>
+        <pose>3.6185556952946225 3.827298672467775 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_190'>
+        <pose>3.6185556952946225 3.827298672467775 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='191_link'>
+      <collision name='collision_191'>
+        <pose>3.625896845200261 3.815508496197413 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_191'>
+        <pose>3.625896845200261 3.815508496197413 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='192_link'>
+      <collision name='collision_192'>
+        <pose>3.6331723811744987 3.8036777179173997 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_192'>
+        <pose>3.6331723811744987 3.8036777179173997 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='193_link'>
+      <collision name='collision_193'>
+        <pose>3.6403820786643344 3.7918067027742746 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_193'>
+        <pose>3.6403820786643344 3.7918067027742746 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='194_link'>
+      <collision name='collision_194'>
+        <pose>3.647525715148814 3.77989581715645 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_194'>
+        <pose>3.647525715148814 3.77989581715645 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='195_link'>
+      <collision name='collision_195'>
+        <pose>3.6546030701458947 3.767945428682909 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_195'>
+        <pose>3.6546030701458947 3.767945428682909 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='196_link'>
+      <collision name='collision_196'>
+        <pose>3.661613925219257 3.7559559061918515 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_196'>
+        <pose>3.661613925219257 3.7559559061918515 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='197_link'>
+      <collision name='collision_197'>
+        <pose>3.6685580639850426 3.7439276197293174 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_197'>
+        <pose>3.6685580639850426 3.7439276197293174 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='198_link'>
+      <collision name='collision_198'>
+        <pose>3.67543527211853 3.7318609405377607 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_198'>
+        <pose>3.67543527211853 3.7318609405377607 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='199_link'>
+      <collision name='collision_199'>
+        <pose>3.6822453373607567 3.7197562410445935 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_199'>
+        <pose>3.6822453373607567 3.7197562410445935 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='200_link'>
+      <collision name='collision_200'>
+        <pose>3.6889880495250638 3.7076138948506916 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_200'>
+        <pose>3.6889880495250638 3.7076138948506916 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='201_link'>
+      <collision name='collision_201'>
+        <pose>3.6956632005035863 3.695434276718862 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_201'>
+        <pose>3.6956632005035863 3.695434276718862 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='202_link'>
+      <collision name='collision_202'>
+        <pose>3.7022705842736756 3.683217762562278 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_202'>
+        <pose>3.7022705842736756 3.683217762562278 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='203_link'>
+      <collision name='collision_203'>
+        <pose>3.7088099969042587 3.670964729432876 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_203'>
+        <pose>3.7088099969042587 3.670964729432876 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='204_link'>
+      <collision name='collision_204'>
+        <pose>3.7152812365621317 3.658675555509718 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_204'>
+        <pose>3.7152812365621317 3.658675555509718 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='205_link'>
+      <collision name='collision_205'>
+        <pose>3.7216841035181893 3.646350620087319 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_205'>
+        <pose>3.7216841035181893 3.646350620087319 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='206_link'>
+      <collision name='collision_206'>
+        <pose>3.7280184001535885 3.6339903035639436 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_206'>
+        <pose>3.7280184001535885 3.6339903035639436 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='207_link'>
+      <collision name='collision_207'>
+        <pose>3.73428393096585 3.62159498742986 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_207'>
+        <pose>3.73428393096585 3.62159498742986 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='208_link'>
+      <collision name='collision_208'>
+        <pose>3.740480502574891 3.6091650542555715 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_208'>
+        <pose>3.740480502574891 3.6091650542555715 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='209_link'>
+      <collision name='collision_209'>
+        <pose>3.746607923728993 3.5967008876800026 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_209'>
+        <pose>3.746607923728993 3.5967008876800026 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='210_link'>
+      <collision name='collision_210'>
+        <pose>3.7526660053107044 3.5842028723986634 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_210'>
+        <pose>3.7526660053107044 3.5842028723986634 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='211_link'>
+      <collision name='collision_211'>
+        <pose>3.7586545603426815 3.5716713941517746 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_211'>
+        <pose>3.7586545603426815 3.5716713941517746 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='212_link'>
+      <collision name='collision_212'>
+        <pose>3.764573403993453 3.5591068397123613 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_212'>
+        <pose>3.764573403993453 3.5591068397123613 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='213_link'>
+      <collision name='collision_213'>
+        <pose>3.7704223535831294 3.546509596874316 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_213'>
+        <pose>3.7704223535831294 3.546509596874316 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='214_link'>
+      <collision name='collision_214'>
+        <pose>3.7762012285890396 3.53388005444043 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_214'>
+        <pose>3.7762012285890396 3.53388005444043 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='215_link'>
+      <collision name='collision_215'>
+        <pose>3.7819098506513025 3.5212186022103937 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_215'>
+        <pose>3.7819098506513025 3.5212186022103937 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='216_link'>
+      <collision name='collision_216'>
+        <pose>3.7875480435783326 3.5085256309687636 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_216'>
+        <pose>3.7875480435783326 3.5085256309687636 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='217_link'>
+      <collision name='collision_217'>
+        <pose>3.7931156333522775 3.4958015324729037 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_217'>
+        <pose>3.7931156333522775 3.4958015324729037 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='218_link'>
+      <collision name='collision_218'>
+        <pose>3.7986124481343877 3.4830466994408944 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_218'>
+        <pose>3.7986124481343877 3.4830466994408944 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='219_link'>
+      <collision name='collision_219'>
+        <pose>3.8040383182703232 3.470261525539409 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_219'>
+        <pose>3.8040383182703232 3.470261525539409 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='220_link'>
+      <collision name='collision_220'>
+        <pose>3.8093930762953865 3.457446405371565 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_220'>
+        <pose>3.8093930762953865 3.457446405371565 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='221_link'>
+      <collision name='collision_221'>
+        <pose>3.8146765569396934 3.4446017344647455 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_221'>
+        <pose>3.8146765569396934 3.4446017344647455 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='222_link'>
+      <collision name='collision_222'>
+        <pose>3.8198885971332732 3.431727909258391 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_222'>
+        <pose>3.8198885971332732 3.431727909258391 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='223_link'>
+      <collision name='collision_223'>
+        <pose>3.825029036011102 3.418825327091764 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_223'>
+        <pose>3.825029036011102 3.418825327091764 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='224_link'>
+      <collision name='collision_224'>
+        <pose>3.8300977149180655 3.405894386191684 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_224'>
+        <pose>3.8300977149180655 3.405894386191684 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='225_link'>
+      <collision name='collision_225'>
+        <pose>3.835094477413861 3.3929354856602396 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_225'>
+        <pose>3.835094477413861 3.3929354856602396 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='226_link'>
+      <collision name='collision_226'>
+        <pose>3.840019169277819 3.379949025462467 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_226'>
+        <pose>3.840019169277819 3.379949025462467 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='227_link'>
+      <collision name='collision_227'>
+        <pose>3.8448716385136685 3.366935406414009 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_227'>
+        <pose>3.8448716385136685 3.366935406414009 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='228_link'>
+      <collision name='collision_228'>
+        <pose>3.849651735354226 3.3538950301687405 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_228'>
+        <pose>3.849651735354226 3.3538950301687405 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='229_link'>
+      <collision name='collision_229'>
+        <pose>3.854359312266017 3.3408282992063754 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_229'>
+        <pose>3.854359312266017 3.3408282992063754 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='230_link'>
+      <collision name='collision_230'>
+        <pose>3.858994223953833 3.327735616820042 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_230'>
+        <pose>3.858994223953833 3.327735616820042 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='231_link'>
+      <collision name='collision_231'>
+        <pose>3.86355632736521 3.3146173871038354 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_231'>
+        <pose>3.86355632736521 3.3146173871038354 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='232_link'>
+      <collision name='collision_232'>
+        <pose>3.868045481694851 3.3014740149403483 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_232'>
+        <pose>3.868045481694851 3.3014740149403483 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='233_link'>
+      <collision name='collision_233'>
+        <pose>3.8724615483889657 3.288305905988172 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_233'>
+        <pose>3.8724615483889657 3.288305905988172 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='234_link'>
+      <collision name='collision_234'>
+        <pose>3.87680439114955 3.275113466669376 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_234'>
+        <pose>3.87680439114955 3.275113466669376 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='235_link'>
+      <collision name='collision_235'>
+        <pose>3.8810738759385917 3.2618971041569678 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_235'>
+        <pose>3.8810738759385917 3.2618971041569678 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='236_link'>
+      <collision name='collision_236'>
+        <pose>3.8852698709822078 3.2486572263623197 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_236'>
+        <pose>3.8852698709822078 3.2486572263623197 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='237_link'>
+      <collision name='collision_237'>
+        <pose>3.8893922467747117 3.2353942419225854 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_237'>
+        <pose>3.8893922467747117 3.2353942419225854 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='238_link'>
+      <collision name='collision_238'>
+        <pose>3.8934408760826105 3.222108560188083 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_238'>
+        <pose>3.8934408760826105 3.222108560188083 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='239_link'>
+      <collision name='collision_239'>
+        <pose>3.89741563394853 3.2088005912096635 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_239'>
+        <pose>3.89741563394853 3.2088005912096635 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='240_link'>
+      <collision name='collision_240'>
+        <pose>3.901316397695074 3.1954707457260536 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_240'>
+        <pose>3.901316397695074 3.1954707457260536 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='241_link'>
+      <collision name='collision_241'>
+        <pose>3.9051430469286093 3.1821194351511797 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_241'>
+        <pose>3.9051430469286093 3.1821194351511797 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='242_link'>
+      <collision name='collision_242'>
+        <pose>3.9088954635429825 3.1687470715614685 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_242'>
+        <pose>3.9088954635429825 3.1687470715614685 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='243_link'>
+      <collision name='collision_243'>
+        <pose>3.912573531723163 3.1553540676831293 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_243'>
+        <pose>3.912573531723163 3.1553540676831293 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='244_link'>
+      <collision name='collision_244'>
+        <pose>3.9161771379488206 3.141940836879417 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_244'>
+        <pose>3.9161771379488206 3.141940836879417 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='245_link'>
+      <collision name='collision_245'>
+        <pose>3.9197061709978267 3.1285077931378713 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_245'>
+        <pose>3.9197061709978267 3.1285077931378713 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='246_link'>
+      <collision name='collision_246'>
+        <pose>3.923160521949688 3.115055351057541 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_246'>
+        <pose>3.923160521949688 3.115055351057541 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='247_link'>
+      <collision name='collision_247'>
+        <pose>3.9265400841889093 3.101583925836189 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_247'>
+        <pose>3.9265400841889093 3.101583925836189 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='248_link'>
+      <collision name='collision_248'>
+        <pose>3.9298447534082817 3.0880939332574737 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_248'>
+        <pose>3.9298447534082817 3.0880939332574737 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='249_link'>
+      <collision name='collision_249'>
+        <pose>3.933074427612105 3.07458578967812 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_249'>
+        <pose>3.933074427612105 3.07458578967812 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='250_link'>
+      <collision name='collision_250'>
+        <pose>3.9362290071193318 3.061059912015068 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_250'>
+        <pose>3.9362290071193318 3.061059912015068 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='251_link'>
+      <collision name='collision_251'>
+        <pose>3.939308394566648 3.047516717732604 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_251'>
+        <pose>3.939308394566648 3.047516717732604 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='252_link'>
+      <collision name='collision_252'>
+        <pose>3.942312494911475 3.0339566248294756 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_252'>
+        <pose>3.942312494911475 3.0339566248294756 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='253_link'>
+      <collision name='collision_253'>
+        <pose>3.945241215434906 3.0203800518259927 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_253'>
+        <pose>3.945241215434906 3.0203800518259927 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='254_link'>
+      <collision name='collision_254'>
+        <pose>3.948094465744564 3.006787417751109 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_254'>
+        <pose>3.948094465744564 3.006787417751109 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='255_link'>
+      <collision name='collision_255'>
+        <pose>3.9508721577773946 2.9931791421294878 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_255'>
+        <pose>3.9508721577773946 2.9931791421294878 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='256_link'>
+      <collision name='collision_256'>
+        <pose>3.953574205802383 2.979555644968556 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_256'>
+        <pose>3.953574205802383 2.979555644968556 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='257_link'>
+      <collision name='collision_257'>
+        <pose>3.9562005264231983 2.965917346745539 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_257'>
+        <pose>3.9562005264231983 2.965917346745539 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='258_link'>
+      <collision name='collision_258'>
+        <pose>3.9587510385807723 2.952264668394486 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_258'>
+        <pose>3.9587510385807723 2.952264668394486 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='259_link'>
+      <collision name='collision_259'>
+        <pose>3.9612256635557954 2.9385980312932727 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_259'>
+        <pose>3.9612256635557954 2.9385980312932727 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='260_link'>
+      <collision name='collision_260'>
+        <pose>3.9636243249711502 2.9249178572506027 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_260'>
+        <pose>3.9636243249711502 2.9249178572506027 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='261_link'>
+      <collision name='collision_261'>
+        <pose>3.965946948794268 2.911224568492983 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_261'>
+        <pose>3.965946948794268 2.911224568492983 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='262_link'>
+      <collision name='collision_262'>
+        <pose>3.968193463339412 2.897518587651696 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_262'>
+        <pose>3.968193463339412 2.897518587651696 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='263_link'>
+      <collision name='collision_263'>
+        <pose>3.970363799269892 2.8838003377497543 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_263'>
+        <pose>3.970363799269892 2.8838003377497543 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='264_link'>
+      <collision name='collision_264'>
+        <pose>3.972457889600203 2.870070242188843 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_264'>
+        <pose>3.972457889600203 2.870070242188843 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='265_link'>
+      <collision name='collision_265'>
+        <pose>3.9744756696980947 2.8563287247362537 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_265'>
+        <pose>3.9744756696980947 2.8563287247362537 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='266_link'>
+      <collision name='collision_266'>
+        <pose>3.976417077286563 2.842576209511805 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_266'>
+        <pose>3.976417077286563 2.842576209511805 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='267_link'>
+      <collision name='collision_267'>
+        <pose>3.9782820524457754 2.828813120974751 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_267'>
+        <pose>3.9782820524457754 2.828813120974751 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='268_link'>
+      <collision name='collision_268'>
+        <pose>3.980070537614917 2.815039883910683 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_268'>
+        <pose>3.980070537614917 2.815039883910683 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='269_link'>
+      <collision name='collision_269'>
+        <pose>3.9817824775939714 2.8012569234184164 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_269'>
+        <pose>3.9817824775939714 2.8012569234184164 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='270_link'>
+      <collision name='collision_270'>
+        <pose>3.98341781954542 2.787464664896873 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_270'>
+        <pose>3.98341781954542 2.787464664896873 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='271_link'>
+      <collision name='collision_271'>
+        <pose>3.984976512995876 2.773663534031949 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_271'>
+        <pose>3.984976512995876 2.773663534031949 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='272_link'>
+      <collision name='collision_272'>
+        <pose>3.986458509837641 2.7598539567833775 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_272'>
+        <pose>3.986458509837641 2.7598539567833775 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='273_link'>
+      <collision name='collision_273'>
+        <pose>3.987863764330189 2.7460363593715824 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_273'>
+        <pose>3.987863764330189 2.7460363593715824 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='274_link'>
+      <collision name='collision_274'>
+        <pose>3.989192233101579 2.732211168264523 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_274'>
+        <pose>3.989192233101579 2.732211168264523 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='275_link'>
+      <collision name='collision_275'>
+        <pose>3.9904438751497944 2.718378810164532 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_275'>
+        <pose>3.9904438751497944 2.718378810164532 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='276_link'>
+      <collision name='collision_276'>
+        <pose>3.991618651844006 2.7045397119951424 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_276'>
+        <pose>3.991618651844006 2.7045397119951424 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='277_link'>
+      <collision name='collision_277'>
+        <pose>3.9927165269257694 2.690694300887916 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_277'>
+        <pose>3.9927165269257694 2.690694300887916 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='278_link'>
+      <collision name='collision_278'>
+        <pose>3.993737466510136 2.6768430041692572 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_278'>
+        <pose>3.993737466510136 2.6768430041692572 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='279_link'>
+      <collision name='collision_279'>
+        <pose>3.9946814390867074 2.662986249347224 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_279'>
+        <pose>3.9946814390867074 2.662986249347224 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='280_link'>
+      <collision name='collision_280'>
+        <pose>3.9955484155206014 2.6491244640983345 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_280'>
+        <pose>3.9955484155206014 2.6491244640983345 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='281_link'>
+      <collision name='collision_281'>
+        <pose>3.9963383690533556 2.6352580762543663 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_281'>
+        <pose>3.9963383690533556 2.6352580762543663 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='282_link'>
+      <collision name='collision_282'>
+        <pose>3.997051275303751 2.621387513789152 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_282'>
+        <pose>3.997051275303751 2.621387513789152 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='283_link'>
+      <collision name='collision_283'>
+        <pose>3.997687112268564 2.607513204805371 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_283'>
+        <pose>3.997687112268564 2.607513204805371 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='284_link'>
+      <collision name='collision_284'>
+        <pose>3.998245860323248 2.5936355775213333 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_284'>
+        <pose>3.998245860323248 2.5936355775213333 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='285_link'>
+      <collision name='collision_285'>
+        <pose>3.998727502222537 2.579755060257769 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_285'>
+        <pose>3.998727502222537 2.579755060257769 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='286_link'>
+      <collision name='collision_286'>
+        <pose>3.999132023100979 2.565872081424602 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_286'>
+        <pose>3.999132023100979 2.565872081424602 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='287_link'>
+      <collision name='collision_287'>
+        <pose>3.9994594104733925 2.551987069507731 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_287'>
+        <pose>3.9994594104733925 2.551987069507731 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='288_link'>
+      <collision name='collision_288'>
+        <pose>3.999709654235256 2.538100453055805 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_288'>
+        <pose>3.999709654235256 2.538100453055805 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='289_link'>
+      <collision name='collision_289'>
+        <pose>3.9998827466630162 2.524212660666994 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_289'>
+        <pose>3.9998827466630162 2.524212660666994 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='290_link'>
+      <collision name='collision_290'>
+        <pose>3.9999786824143277 2.510324120975764 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_290'>
+        <pose>3.9999786824143277 2.510324120975764 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='291_link'>
+      <collision name='collision_291'>
+        <pose>3.9999974585282185 2.4964352626396438 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_291'>
+        <pose>3.9999974585282185 2.4964352626396438 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='292_link'>
+      <collision name='collision_292'>
+        <pose>3.99993907442518 2.482546514325999 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_292'>
+        <pose>3.99993907442518 2.482546514325999 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='293_link'>
+      <collision name='collision_293'>
+        <pose>3.999803531907187 2.468658304698798 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_293'>
+        <pose>3.999803531907187 2.468658304698798 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='294_link'>
+      <collision name='collision_294'>
+        <pose>3.9995908351576386 2.454771062405384 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_294'>
+        <pose>3.9995908351576386 2.454771062405384 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='295_link'>
+      <collision name='collision_295'>
+        <pose>3.9993009907412334 2.4408852160632426 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_295'>
+        <pose>3.9993009907412334 2.4408852160632426 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+    <link name='296_link'>
+      <collision name='collision_296'>
+        <pose>3.9989340076037627 2.427001194246778 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual_296'>
+        <pose>3.9989340076037627 2.427001194246778 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.015 0.015 0.50</size>
+          </box>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    
+
+  <static>true</static>
+</model>
+</sdf>
+
