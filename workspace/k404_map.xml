@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <!-- robô + arena -->
+  <include file="$(find-pkg-share turtlebot3_gazebo)/launch/empty_world.launch.py" />
+  <executable cmd="bash worlds/k404.sh" output="screen" />
+
+  <!-- Ferramentas -->
+  <node pkg="rviz2" exec="rviz2" output="screen" />
+  <node pkg="teleop_twist_keyboard" exec="teleop_twist_keyboard" output="screen" launch-prefix="xterm -e"/>
+
+  <!-- Map Server -->
+  <node pkg="nav2_map_server" exec="map_server" name="map_server" output="screen">
+    <param name="yaml_filename" value="map_1759788112.yaml"/>
+    <param name="use_sim_time" value="true"/>
+    <param name="topic_name" value="/map"/>
+    <param name="frame_id" value="map"/>
+  </node>
+
+  <!-- Lifecycle -->
+  <executable cmd="bash -lc 'sleep 2; ros2 lifecycle set /map_server configure'" output="screen"/>
+  <executable cmd="bash -lc 'sleep 4; ros2 lifecycle set /map_server activate'" output="screen"/>
+
+</launch>
