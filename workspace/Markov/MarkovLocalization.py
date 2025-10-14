@@ -30,7 +30,7 @@ class MarkovLocalization(Node):
         self.subscription = self.create_subscription(LaserScan, '/scan', self.subscriber_callback, 10)
 
         self.publisher_vel = self.create_publisher(Twist, '/cmd_vel', 10)
-       
+        
         self.timer_period = 5.0
         self.timer = self.create_timer(self.timer_period,self.timer_callback)
         rclpy.spin(self)
