@@ -10,7 +10,7 @@
 
   <!-- Map Server -->
   <node pkg="nav2_map_server" exec="map_server" name="map_server" output="screen">
-    <param name="yaml_filename" value="map_1759788112.yaml"/>
+    <param name="yaml_filename" value="map_1760483545.yaml"/>
     <param name="use_sim_time" value="true"/>
     <param name="topic_name" value="/map"/>
     <param name="frame_id" value="map"/>
