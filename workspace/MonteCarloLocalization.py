@@ -184,6 +184,7 @@ class MCL(Node):
         if self.odom is None or self.laser is None or self.map_grid is None:
             return
 
+        self.get_logger().info('teste')
         # Etapa 1: Previsão 
         if self.last_odom is None:
             self.last_odom = self.odom
