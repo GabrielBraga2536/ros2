@@ -64,6 +64,7 @@ class MCL(Node):
 
         # Odometria anterior para delta
         self.last_odom = None
+        self.prev_odom = None
 
         self.declare_parameter('particles', self.M)
         p_value = self.get_parameter('particles').value
@@ -129,106 +130,109 @@ class MCL(Node):
 
     # algorithm - inicialização
     def inicializacao(self):
-        # Garante que há mapa
+        print("[MCL] Inicializando...")
+
         if self.map is None:
+            print("[MCL] ERRO: mapa ainda não recebido (aguarde /map).")
             return
 
-        # Constrói grid e infos a partir do OccupancyGrid
+        # Meta-dados do mapa
         info = self.map.info
-        self.width = int(info.width)
-        self.height = int(info.height)
-        self.res = float(info.resolution)
-        self.origin_x = float(info.origin.position.x)
-        self.origin_y = float(info.origin.position.y)
+        self.map_res = float(info.resolution)
+        self.map_w   = int(info.width)
+        self.map_h   = int(info.height)
+        self.map_ox  = float(info.origin.position.x)
+        self.map_oy  = float(info.origin.position.y)
 
-        data = np.array(self.map.data, dtype=np.int16).reshape((self.height, self.width))
+        # Grid numpy
+        data = np.array(self.map.data, dtype=np.int16).reshape(self.map_h, self.map_w)
 
-        self.occup = (data >= 65)
+        # Células ocupadas (para correção simples)
+        self.occ = (data >= 65)
 
+        # Células livres para seed das partículas
         livres = np.argwhere((data >= 0) & (data <= 50))
-
-        if (livres.size == 0):
-            self.P[:, 0:2] = 0.0
-            self.P[:, 2] = np.random.uniform(-math.pi, math.pi, size = self.M)
+        if livres.size == 0:
+            print("[MCL] Aviso: nenhum pixel livre; usando (0,0,theta aleatório).")
+            self.p[:, 0:2] = 0.0
+            self.p[:, 2]   = np.random.uniform(-math.pi, math.pi, size=self.M)
         else:
-            index = np.random.choice(livres.shape[0], size = self.M, replace = True)
-            row_column = livres[index]
-            xs = self.origin_x + (row_column[:, 1].astype(float) + 0.5) * self.res
-            ys = self.origin_y + (row_column[:, 0].astype(float) + 0.5) * self.res
-            theta = np.random.uniform(-math.pi, math.pi, size = self.M)
+            idx = np.random.choice(livres.shape[0], size=self.M, replace=True)
+            rc  = livres[idx]  # (row, col)
+            xs = self.map_ox + (rc[:, 1].astype(float) + 0.5) * self.map_res
+            ys = self.map_oy + (rc[:, 0].astype(float) + 0.5) * self.map_res
+            thetas = np.random.uniform(-math.pi, math.pi, size=self.M)
             self.p[:, 0] = xs
             self.p[:, 1] = ys
-            self.p[:, 2] = theta
+            self.p[:, 2] = thetas
 
         self.w[:] = 1.0 / self.M
-        
-        self.last_odom = np.array(self.odom if self.odom is not None else [0.0, 0.0, 0.0], dtype = float)
+        self.last_odom = np.array(self.odom if self.odom is not None else [0.0, 0.0, 0.0], dtype=float)
 
     # algorithm - atualização
     def mcl_algorithm(self):
-        # Garante que há odometria, laser e mapa
-        if self.odom is None or self.laser is None or self.map_grid is None:
+        # Garante que temos dados suficientes
+        if self.map is None or self.odom is None or self.laser is None:
             return
 
-        # Etapa 1: Previsão 
-        current = np.array(self.odom, dtype = float)
-        d = current - self.last_odom
-        self.last_odom = current.copy()
+        # ---------- PREVISÃO ----------
+        cur = np.array(self.odom, dtype=float)
+        delta = cur - self.last_odom
+        self.last_odom = cur.copy()
 
-        # Ruído nas componentes
+        # movimento + ruído simples
         self.p[:, 0] += delta[0] + np.random.normal(0.0, 0.02, self.M)
         self.p[:, 1] += delta[1] + np.random.normal(0.0, 0.02, self.M)
         self.p[:, 2] += delta[2] + np.random.normal(0.0, 0.01, self.M)
         self.p[:, 2] = (self.p[:, 2] + math.pi) % (2 * math.pi) - math.pi
+        print(f"[MCL] Previsão: Δx={delta[0]:.3f}, Δy={delta[1]:.3f}, Δth={delta[2]:.3f}")
 
-        # Etapa 2: Correção (atualização por sensor)
-        # Modelo de sensor: verossimilhança Gaussiana com distância esperada via raycast no mapa
-        laser = self.laser
-        ranges = np.array(laser.ranges, dtype = float)
-        angles = np.linspace(laser.angle_min, laser.angle_max, len(ranges), dtype = float)
-        step = max(1, len(ranges) // 30)
-        weights = np.zeros(self.M, dtype = float)
+        # ---------- CORREÇÃO ----------
+        scan = self.laser
+        ranges = np.array(scan.ranges, dtype=float)
+        angles = np.linspace(scan.angle_min, scan.angle_max, len(ranges), dtype=float)
+        step = max(1, len(ranges) // 30)  # amostra ~30 feixes
 
+        pesos = np.zeros(self.M, dtype=float)
         for i in range(self.M):
-            x, y, theta = self.p[i]
+            x, y, th = self.p[i]
             score = 0
-
             for a, r in zip(angles[::step], ranges[::step]):
-
                 if not np.isfinite(r):
                     continue
-                
-                ex = x + r * math.cos(theta + a)
-                ey = y + r * math.sin(theta + a)
-                col = int((ex - self.origin_x) / self.res)
-                row = int((ey - self.origin_y) / self.res)
-                
-                if 0 <= row < self.height and 0 <= col < self.width:
-                    if self.occup[row, col]:
+                ex = x + r * math.cos(th + a)
+                ey = y + r * math.sin(th + a)
+                col = int((ex - self.map_ox) / self.map_res)
+                row = int((ey - self.map_oy) / self.map_res)
+                if 0 <= row < self.map_h and 0 <= col < self.map_w:
+                    if self.occ[row, col]:
                         score += 1
-                weights[i] = score + 1e-6
-        
-        soma = float(np.sum(pesos))
+            pesos[i] = score + 1e-6  # evita zero
 
-        if (soma > 0.0 and np.isfinite(soma)):
-            self.w = weights / soma
+        soma = float(np.sum(pesos))
+        if soma > 0.0 and np.isfinite(soma):
+            self.w = pesos / soma
         else:
             self.w[:] = 1.0 / self.M
+        print(f"[MCL] Correção: pesos normalizados (sum={np.sum(self.w):.3f})")
 
-
-        # Etapa 3: Reamostragem (low-variance)
-        ef = 1.0 / np.sum(self.w ** 2)
-
-        if (ef < self.M * 0.5):
-            index = np.random.choice(self.M, self.M, p = self.w)
+        # ---------- REAMOSTRAGEM ----------
+        nef = 1.0 / np.sum(self.w ** 2)
+        if nef < self.M * 0.5:
+            idx = np.random.choice(self.M, self.M, p=self.w)
+            self.p = self.p[idx]
             self.w[:] = 1.0 / self.M
+            print("[MCL] Reamostragem feita (systematic simplificado).")
+        else:
+            print(f"[MCL] Sem reamostragem (Neff={nef:.1f} ≥ {0.5*self.M:.1f}).")
 
-        # Etapa 4: Estimativa da posição (média ponderada)
+        # ---------- ESTIMATIVA ----------
         mx = float(np.mean(self.p[:, 0]))
         my = float(np.mean(self.p[:, 1]))
         mth = float(np.mean(self.p[:, 2]))
-        print(f"Estimativa: x = {mx:.2f}, y = {my:.2f}, theta = {mth:.2f}")
+        print(f"[MCL] Estimativa: x={mx:.2f}, y={my:.2f}, th={mth:.2f}")
 
+        # ---------- PUBLICAÇÃO ----------
         qx, qy, qz, qw = tf_transformations.quaternion_from_euler(0.0, 0.0, mth)
         self.mcl_pose.header.frame_id = "map"
         self.mcl_pose.header.stamp = self.get_clock().now().to_msg()
@@ -240,10 +244,11 @@ class MCL(Node):
         self.mcl_pose.pose.pose.orientation.z = float(qz)
         self.mcl_pose.pose.pose.orientation.w = float(qw)
 
+        # Atualiza PoseArray
         self.particlecloud.header.frame_id = "map"
         self.particlecloud.header.stamp = self.get_clock().now().to_msg()
         self.particlecloud.poses.clear()
-
+        from geometry_msgs.msg import Pose
         for i in range(self.M):
             pose = Pose()
             pose.position.x = float(self.p[i, 0])
@@ -259,6 +264,82 @@ class MCL(Node):
         # Publica
         self.pose_pub.publish(self.mcl_pose)
         self.pcloud_pub.publish(self.particlecloud)
+        print("[MCL] Publicado: /mcl_pose e /particlecloud\n")
+
+    # def mcl_algorithm(self):
+    #     width = self.map.info.width
+    #     height = self.map.info.height
+    #     res = self.map.info.resolution
+    #     ox = self.map.info.origin.position.x
+    #     oy = self.map.info.origin.position.y
+    #     pontosMapa = np.array(self.map.data, dtype=int).reshape((height, width))
+
+    #     #Informa o movimento do robô
+    #     if self.prev_odom is None:
+    #         self.prev_odom = self.odom
+    #         return
+
+    #     dx = self.odom[0] - self.prev_odom[0]
+    #     dy = self.odom[1] - self.prev_odom[1]
+    #     dth = self.odom[2] - self.prev_odom[2]
+    #     self.prev_odom = self.odom
+
+    #     #PREVISÃO
+    #     #aplica deslocamento a todas as partículas
+    #     self.p[:, 0] += dx
+    #     self.p[:, 1] += dy
+    #     self.p[:, 2] += dth
+    #     #normaliza ângulos para o intervalo [-π, π]
+    #     self.p[:, 2] = (self.p[:, 2] + np.pi) % (2 * np.pi) - np.pi
+
+    #     #CORREÇÃO
+    #     #Passa coordenadas do mundo para índices do mapa
+    #     weights = np.zeros(self.M, dtype=float)
+    #     xs_idx = np.floor((self.p[:, 0] - ox) / res).astype(int)
+    #     ys_idx = np.floor((self.p[:, 1] - oy) / res).astype(int)
+
+    #     for i in range(self.M):
+    #         ix = xs_idx[i]
+    #         iy = ys_idx[i]
+    #         #fora do mapa / peso baixo
+    #         if ix < 0 or ix >= width or iy < 0 or iy >= height:
+    #             weights[i] = 1e-6
+    #             continue
+    #         celula = pontosMapa[iy, ix]
+    #         # celula == 0 / livre ou celula != 0 / ocupado
+    #         if celula == 0:
+    #             weights[i] = 1.0
+    #         else:
+    #             weights[i] = 1e-6
+
+    #     #multiplica com o novo peso
+    #     self.w = self.w * weights
+    #     #evita todos zeros
+    #     if np.sum(self.w) <= 0.0:
+    #         self.w = np.ones(self.M, dtype=float) / self.M
+    #     else:
+    #         self.w = self.w / np.sum(self.w)
+
+    #     #REAMOSTRAGEM
+    #     #substitui o conjunto de partículas dependendo do peso
+    #     idx = np.random.choice(self.M, size=self.M, replace=True, p=self.w)
+    #     self.p = self.p[idx].copy()
+    #     #volta com os pesos uniformes
+    #     self.w = np.ones(self.M, dtype=float) / self.M
+
+    #     #ESTIMATIVA
+    #     #média simples
+    #     mean_x = np.mean(self.p[:, 0])
+    #     mean_y = np.mean(self.p[:, 1])
+    #     #média angular via soma de vetores unitários
+    #     sin_sum = np.mean(np.sin(self.p[:, 2]))
+    #     cos_sum = np.mean(np.cos(self.p[:, 2]))
+    #     mean_th = math.atan2(sin_sum, cos_sum)
+
+    #     self.mcl_pose.pose.pose.position.x = float(mean_x)
+    #     self.mcl_pose.pose.pose.position.y = float(mean_y)
+    #     q = tf_transformations.quaternion_from_euler(0.0, 0.0, mean_th)
+    #     self.mcl_pose.pose.pose.orientation = Quaternion(x=float(q[0]), y=float(q[1]), z=float(q[2]), w=float(q[3]))
 
 
 def main(args=None):
