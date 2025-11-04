@@ -10,12 +10,12 @@
   <!--node pkg="teleop_keyboard" exec="teleop_keyboard" output="screen" launch-prefix="xterm -e"-->
 
   <!-- Map Server -->
-  <node pkg="nav2_map_server" exec="map_server" name="map_server" output="screen">
+  <!-- <node pkg="nav2_map_server" exec="map_server" name="map_server" output="screen">
     <param name="yaml_filename" value="map_1760483545.yaml"/>
     <param name="use_sim_time" value="true"/>
     <param name="topic_name" value="/map"/>
     <param name="frame_id" value="map"/>
-  </node>
+  </node> -->
 
   <!-- Lifecycle -->
   <executable cmd="bash -lc 'sleep 2; ros2 lifecycle set /map_server configure'" output="screen"/>
